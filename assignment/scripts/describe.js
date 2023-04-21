@@ -1,3 +1,4 @@
+
 // WHAT IS THIS EVEN DOING?
 
 // For questions 1-3, each code block is syntactically and logically correct. Your job is to describe what is happening. 
@@ -15,72 +16,69 @@
 //CODE
 /*
 let number = 1;
-
 number++;
-
 if (number >= 2) {
   console.log('yes');
 }
-
 */
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we make a variable called name and set is to name Dane
+// if the name is exact match to Mary we console.log 'Hi Mary!'
+// if  name is not exact match to Mary
+//we console.log 'How do you do?'
+// our console.log value in this case will be 'How do you do?'
 
 //CODE
 /*
 let name = 'Dane';
-
 if (name === 'Mary') {
   console.log('Hi, Mary!');
 } else {
   console.log('How do you do?');
 }
-
-
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// create a variable called secret dont set it to anything
+// create a variable called code set it to 123
+// then we check is code is 123 if it is we set secret to super and code to 246
+// else we check if code is bigger than 250 if it is  we set super to duper
+//else we console.log(secret)
+// we end up applying the first if statement 
+// if code is exact match to 123 then secret is equal to super or code is equal to 246
+//if code is bigger than 250 then secret equals to duper. if any of these correct console.log secret
 
 //CODE
 /*
 let secret;
-
 let code = 123;
-
 if(code === 123) {
   secret = 'super';
   code = code * 2;
 }
-
 if (code > 250) {
   secret = 'duper'
 }
-
 console.log(secret)
-
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// created a variable called isStudent and set it to true
+// create  variable called age and set it to 34
+// create a varibale called zip and set it to 55407
+//if student is equal to true and zip varibale is larger than 80000 then console log You're a student on the West Coast!
+//however if student is equal to false or age is smaller than 30 then console.log What are your hobbies?
+//if only isStudent equal to true console log Welcome to prime
+//If none is applicable then console.log How about the weather?
+//our console log is 'Welcome to Prime?'
 
 //CODE
 /*
 let isStudent = true;
 let age = 34;
 let zip = 55407;
-
 if (isStudent === true && zip > 80000 ) {
   console.log(`You're a student on the West Coast!`);
 } else if (isStudent === false || age < 30) {
@@ -90,7 +88,6 @@ if (isStudent === true && zip > 80000 ) {
 } else {
   console.log('How about the weather?')
 }
-
 */
 
 
@@ -112,15 +109,12 @@ if (isStudent === true && zip > 80000 ) {
 //CODE
 /*
 let number = 1;
-
 // FIX - number-- decrements number, but the instructions ask to increment. 
 // Should be number++.
 number--; 
-
 if (number >= 2) {
   console.log('yes');
 }
-
 */
 
 
@@ -133,7 +127,11 @@ if (number >= 2) {
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
-
+//FIX: description states we set colorTwo and colorOne to 'purple'. However only ColorOne is set to 'purple. 
+//if (mix === true) {
+  colorOne = 'purple';
+  colorTwo = 'purple';
+}
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -146,7 +144,9 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+//FIX: description states temp is higher than 39 and if time is greater or equal to  4 however code states 'or' to match the description we make this change
+// if (temp > 39 && time >= 4) {
+  console.log('throw away the food!');
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,11 +159,14 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+//FIX: description is wrong if age is greater of equal to minage then we console log 'no entry' if else we console.log 'enter'
+// to have the code according to description we would need to  
+if(minAge <= age) {
+  console.log('enter');
+}
 if(minAge <= age) {
   console.log('no entry');
 } else {
   console.log('enter');
 }
 */
-
